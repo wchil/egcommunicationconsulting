@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — EG Communication Consulting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-main">EG Communication Consulting</span>
+        <span class="nav-logo-sub">Global Corporate &amp; Executive Communication</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="why-eg.html">Why EG?</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="language.html" class="nav-lang">EN | 中文</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── PAGE HEADER ─── -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <p class="section-label">Start the Conversation</p>
+      <h1>Contact Us</h1>
+    </div>
+  </div>
+
+  <!-- ─── CONTACT SECTION ─── -->
+  <section>
+    <div class="section-inner">
+      <div class="contact-grid">
+
+        <!-- Left: Info -->
+        <div class="contact-info">
+          <h3>We'd Love to Hear From You</h3>
+          <p>
+            Whether you have a specific project in mind or just want to explore how we might 
+            work together, we welcome the conversation. Reach out using the form or the 
+            contact details below.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">✉</span>
+            <div>
+              <strong>Email</strong><br>
+              <!-- Replace with your actual email address -->
+              <a href="mailto:info@egcommunicationconsulting.com" style="color: var(--teal); text-decoration: none;">
+                info@egcommunicationconsulting.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">📍</span>
+            <div>
+              <strong>Based In</strong><br>
+              United States of America
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">🌐</span>
+            <div>
+              <strong>Serving Clients</strong><br>
+              Globally — across North America, Asia-Pacific, Europe, and beyond
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">💬</span>
+            <div>
+              <strong>Languages</strong><br>
+              English &nbsp;|&nbsp; 繁體中文
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form">
+          <!--
+            NOTE ON FORMS: Static HTML pages cannot send email on their own.
+            To make this form functional, use a free form service such as:
+              - Formspree (formspree.io) — free tier available
+              - Netlify Forms — free if hosting on Netlify
+              - Web3Forms (web3forms.com) — free tier available
+
+            Replace the action="#" below with your Formspree/Web3Forms endpoint.
+            Example: action="https://formspree.io/f/yourformid"
+          -->
+          <form action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="First name" required />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Last name" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="organization">Organization</label>
+              <input type="text" id="organization" name="organization" placeholder="Your company or organization" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Area of Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service area...</option>
+                <option value="cross-cultural-strategy">Cross-Cultural Communication Strategy</option>
+                <option value="executive-coaching">Executive Communication Coaching</option>
+                <option value="stakeholder-alignment">Stakeholder Alignment &amp; Buy-In</option>
+                <option value="corporate-consulting">Corporate Communication Consulting</option>
+                <option value="other">Other / Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your organization and what you're looking to achieve..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p>&copy; 2025 EG Communication Consulting &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="contact.html">Contact</a></p>
+  </footer>
+
+</body>
+</html>
