@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team — EG Communication Consulting</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .team-member {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 4rem;
+      align-items: start;
+      margin-bottom: 5rem;
+      padding-bottom: 5rem;
+      border-bottom: 1px solid #dce8f0;
+    }
+    .team-member:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .team-photo img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    .team-email {
+      margin-top: 1.4rem;
+      font-size: 0.88rem;
+      color: var(--teal);
+      letter-spacing: 0.04em;
+    }
+    .team-email span {
+      font-weight: 500;
+      color: var(--navy);
+      margin-right: 0.4rem;
+    }
+    @media (max-width: 900px) {
+      .team-member { grid-template-columns: 1fr; }
+      .team-photo { max-width: 320px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-main">EG Communication Consulting</span>
+        <span class="nav-logo-sub">Global Corporate &amp; Executive Communication</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="why-eg.html">Why EG?</a></li>
+        <li><a href="our-team.html" class="active">Our Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="language.html" class="nav-lang">EN | 中文</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-header-inner">
+      <p class="section-label">The People Behind the Work</p>
+      <h1>Our Team</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+
+      <!-- DEBBY WANG -->
+      <div class="team-member">
+        <div class="team-photo">
+          <img src="images/Debby_Wang.png" alt="Debby Wang" />
+        </div>
+        <div class="team-bio-col">
+          <div class="team-accent-bar"></div>
+          <h2 class="team-name">Debby Wang</h2>
+          <p class="team-title">Founder &amp; Principal Consultant</p>
+          <div class="team-bio">
+            <p>Debby Wang is the founder and principal consultant of EG Communication Consulting, bringing deep expertise in global corporate communication and executive cross-cultural strategy to organizations operating across international markets.</p>
+          </div>
+          <p class="team-email"><span>Email:</span>debby@egcommunicationconsulting.com</p>
+          <div class="team-expertise">
+            <h4>Areas of Expertise</h4>
+            <div class="expertise-tags">
+              <span class="tag">Cross-Cultural Strategy</span>
+              <span class="tag">Executive Communication</span>
+              <span class="tag">Stakeholder Buy-In</span>
+              <span class="tag">Global Leadership</span>
+              <span class="tag">Corporate Communication</span>
+              <span class="tag">East-West Business Communication</span>
+              <span class="tag">Organizational Alignment</span>
+              <span class="tag">Intercultural Training</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WILLIAM CHILCOAT -->
+      <div class="team-member">
+        <div class="team-photo">
+          <img src="images/William_Chilcoat.jpg" alt="William Chilcoat" />
+        </div>
+        <div class="team-bio-col">
+          <div class="team-accent-bar" style="background: linear-gradient(90deg, var(--blue-mid), var(--teal));"></div>
+          <h2 class="team-name">William Chilcoat</h2>
+          <p class="team-title">Business Development Project Manager</p>
+          <div class="team-bio">
+            <p>William Chilcoat serves as Business Development Project Manager at EG Communication Consulting, driving growth initiatives and managing client relationships across the firm's global portfolio.</p>
+          </div>
+          <p class="team-email"><span>Email:</span>will@egcommunicationconsulting.com</p>
+          <div class="team-expertise">
+            <h4>Areas of Expertise</h4>
+            <div class="expertise-tags">
+              <span class="tag">Business Development</span>
+              <span class="tag">Client Relations</span>
+              <span class="tag">Project Management</span>
+              <span class="tag">Global Markets</span>
+              <span class="tag">Strategic Partnerships</span>
+              <span class="tag">Cross-Cultural Engagement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EG Communication Consulting &nbsp;|&nbsp; All Rights Reserved &nbsp;|&nbsp; <a href="contact.html">Contact</a></p>
+  </footer>
+
+</body>
+</html>
